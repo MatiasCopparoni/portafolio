@@ -77,6 +77,65 @@
   box-shadow: 0 5px 15px #e4405f;
 }
 
+.social-list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0 0;
+  display: grid;
+  gap: 12px;
+}
+
+.social-list-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(99, 115, 129, 0.18);
+  background: rgba(99, 115, 129, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.social-list-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  border-color: rgba(99, 115, 129, 0.35);
+  background: rgba(99, 115, 129, 0.12);
+}
+
+.social-list .icon-button {
+  margin: 0;
+}
+
+.social-list-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-list-link i {
+  margin: 0;
+}
+
+.social-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.social-name {
+  font-family: "Google Sans Medium";
+  font-size: 1rem;
+}
+
+.social-handle {
+  font-size: 0.9rem;
+  color: #868e96;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {

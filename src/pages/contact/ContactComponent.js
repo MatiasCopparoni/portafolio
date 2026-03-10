@@ -2,14 +2,15 @@ import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import BlogsImg from "./BlogsImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
 
+// importar el PDF
+import CV from "../../assests/CV.pdf";
+
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
 
 function Contact(props) {
   const theme = props.theme;
@@ -21,12 +22,23 @@ function Contact(props) {
     },
   });
 
+  // función de descarga
+  const downloadPDF = () => {
+    const link = document.createElement("a");
+    link.href = CV;
+    link.download = "Matias_Copparoni_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="contact-main">
       <Header theme={theme} setTheme={props.setTheme} />
+
       <div className="basic-contact">
         <Fade bottom duration={1000} distance="40px">
-          <div className="contact-heading-div">
+          <div className="contact-heading-div contact-card">
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
@@ -34,52 +46,39 @@ function Contact(props) {
                 alt=""
               />
             </div>
+
             <div className="contact-heading-text-div">
-              <h1
-                className="contact-heading-text"
-                style={{ color: theme.text }}
-              >
-                {ContactData["title"]}
-              </h1>
               <p
                 className="contact-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
                 {ContactData["description"]}
               </p>
-              <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
             </div>
           </div>
-        </Fade>
-        <Fade bottom duration={1000} distance="40px">
-          <div className="blog-heading-div">
-            <div className="blog-heading-text-div">
-              <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
-              </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {blogSection["subtitle"]}
-              </p>
-              <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
-                  My Medium Profile
-                </a>
-              </div>
+
+          <div className="contact-socials-block">
+            <h2 className="contact-subheading" style={{ color: theme.text }}>
+              Contactame
+            </h2>
+
+            <div className="contact-socials">
+              <SocialMedia variant="list" />
             </div>
-            <div className="blog-heading-img-div">
-              <BlogsImg theme={theme} />
-            </div>
+          </div>
+
+          <div className="resume-btn-wrapper">
+            <button
+              {...styles}
+              className="general-btn resume-btn"
+              onClick={downloadPDF}
+            >
+              Descargar CV
+            </button>
           </div>
         </Fade>
       </div>
+
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

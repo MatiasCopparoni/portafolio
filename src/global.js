@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
   *,
@@ -8,15 +8,18 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    align-items: center;
+    margin: 0;
+    min-height: 100vh;
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // height: 100vh;
-    // margin: 0;
-    // padding: 0;
+    display: block;
     font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     transition: all 0.25s linear;
+    padding: 0;
+  }
+
+  @media (max-width: 900px) {
+    body {
+      padding: 0;
+    }
   }`;

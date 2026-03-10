@@ -19,7 +19,8 @@ const lightTheme = {
 
 const darkTheme = {
   name: "dark",
-  body: "#1D1D1D",
+  body:
+    "radial-gradient(circle at 25% 18%, rgba(255,255,255,0.04), transparent 42%), radial-gradient(circle at 78% 30%, rgba(255,255,255,0.02), transparent 46%), linear-gradient(145deg, #16181d 0%, #111217 52%, #0c0d11 100%)",
   text: "#FFFFFF",
   dark: "#000000",
   secondaryText: "#8D8D8D",

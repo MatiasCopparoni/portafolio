@@ -28,17 +28,7 @@
 
 .body-header-title {
   align-items: flex-start;
-  width: 80%;
-}
-
-.body-header-duration {
-  width: 20%;
-}
-.duration {
-  font-family: "Google Sans Regular";
-  font-size: 16px;
-  padding-right: 10px;
-  float: right;
+  width: 100%;
 }
 
 .body-content {
@@ -66,18 +56,6 @@
 
   .body-header-title {
     width: 100%;
-  }
-
-  .body-header-duration {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-  }
-
-  .duration {
-    padding: 0px;
-    margin: 0px;
-    float: left;
   }
 
   .card-title {
