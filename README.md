@@ -1,37 +1,54 @@
-# opPortfolio
+# Portafolio de Matias Copparoni
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/afea2508-00ca-464f-8f63-a4283928fc0f/deploy-status)](https://app.netlify.com/sites/Matiasp/deploys)
 ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FMatias1999%2FopPortfolio)
 
-![opPortfolio](/images/portfolio.gif)
+Desarrollador Full Stack orientado a resultados, con base sólida en JavaScript/React/Node y experiencia optimizando operaciones y atención al cliente. Este portafolio reúne mi perfil, formación y proyectos destacados.
 
-### A clean portfolio template. (Readme will be updated soon)
+## Contenido del sitio
 
-# Sections
+- Inicio con resumen profesional y switch de tema (oscuro/claro).
+- Educación y certificaciones.
+- Experiencia laboral.
+- Proyectos destacados con stack usado.
+- Contacto y descarga directa de CV.
 
-- Home
-- Education and Certificates
-- Experience
-- Projects
-- Contact and Resume
+## Stack y características
 
-# How To Use
+- React + react-router.
+- styled-components y theming personalizable.
+- Iconografía con Font Awesome y react-icons.
+- Seguimiento opcional con Google Analytics (configurable en `src/portfolio.js`).
+- Favicon y manifest ajustados a la identidad visual.
 
-- Clone this repository (or fork, then clone your fork :) )
-- Run `npm i`
-- Check it out using `npm start`
+## Cómo ejecutarlo localmente
 
-# How Do I Customize
+Requisitos: Node.js (18+ recomendado) y npm.
 
-- Replace `homepage` in package.json to your domain name or `https://<username>.github.io`
-- In `src/portfolio.js` you can add your personal portfolio details.
-- In `src/theme.js` you can change the theme colors. You can change between Light and Dark theme with the theme switch on the header.
+```bash
+git clone https://github.com/Matias1999/opPortfolio.git
+cd opPortfolio
+npm install
+npm start
+```
 
-# How to Deploy
+La app corre por defecto en `http://localhost:3000`.
 
-I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
+## Personalización rápida
 
-# References
+- Información personal y secciones: `src/portfolio.js`.
+- Colores y tema: `src/theme.js`.
+- Favicon: `public/favicon.svg`.
+- Imágenes: `src/assests/images/` (usa solo las que se referencian en `portfolio.js`).
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
-Illustrations: https://undraw.co/
+## Despliegue
+
+- Netlify (actual): conecta el repo y habilita deploy automático.
+- GitHub Pages: `npm run build` y publica la carpeta `build`.
+
+## Contacto
+
+- LinkedIn: https://www.linkedin.com/in/matias-copparoni-907804264/
+- Email: copparonimatias22@gmail.com
+
+Siempre abierto a nuevos desafíos y colaboraciones.🚀
