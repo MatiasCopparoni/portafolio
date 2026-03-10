@@ -1,14 +1,14 @@
 {
   "private": true,
   "name": "miportafolio",
-  "version": "1.2.0",
   "homepage": "https://MatiasCopparoni.github.io/portfolio",
-  "scripts": {
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
-  },
+  "version": "1.2.0",
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
   "dependencies": {
     "baseui": "^12.2.0",
     "glamor": "^2.20.40",
