@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.ca7f6a18.css",
+    "main.js": "/portafolio/static/js/main.34cb1974.js",
+    "static/media/fa-solid-900.svg": "/portafolio/static/media/fa-solid-900.decfdcb63165be4a18b6.svg",
+    "static/media/fa-brands-400.svg": "/portafolio/static/media/fa-brands-400.d21386c92d7f4fbf03dc.svg",
+    "static/media/Montserrat-Regular.ttf": "/portafolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/matias2.png": "/portafolio/static/media/matias2.ea7a07c5f30d7f14dc25.png",
+    "static/media/fa-solid-900.eot": "/portafolio/static/media/fa-solid-900.d93bcbbb0fbfad39d905.eot",
+    "static/media/fa-solid-900.ttf": "/portafolio/static/media/fa-solid-900.aae41ea25bd0dde9f796.ttf",
+    "static/media/CV.pdf": "/portafolio/static/media/CV.8ce5be8f9d56a14907b0.pdf",
+    "static/media/fa-regular-400.svg": "/portafolio/static/media/fa-regular-400.68bba3adb61c08195530.svg",
+    "static/media/fa-brands-400.eot": "/portafolio/static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
+    "static/media/fa-brands-400.ttf": "/portafolio/static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
+    "static/media/GoogleSans-Italic.ttf": "/portafolio/static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
+    "static/media/GoogleSans-MediumItalic.ttf": "/portafolio/static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
+    "static/media/GoogleSans-BoldItalic.ttf": "/portafolio/static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
+    "static/media/GoogleSans-Regular.ttf": "/portafolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/portafolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
+    "static/media/GoogleSans-Bold.ttf": "/portafolio/static/media/GoogleSans-Bold.d907e4bf3e32637a636e.ttf",
+    "static/media/fa-solid-900.woff": "/portafolio/static/media/fa-solid-900.3ef4f1acb44a2df412bf.woff",
+    "static/media/Agustina.woff": "/portafolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/fa-brands-400.woff": "/portafolio/static/media/fa-brands-400.dc957891d535aa198135.woff",
+    "static/media/fa-solid-900.woff2": "/portafolio/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
+    "static/media/fa-brands-400.woff2": "/portafolio/static/media/fa-brands-400.1c638e5f7632ea819e77.woff2",
+    "static/media/fa-regular-400.eot": "/portafolio/static/media/fa-regular-400.86ce78132c18df414d83.eot",
+    "static/media/fa-regular-400.ttf": "/portafolio/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
+    "static/media/fa-regular-400.woff": "/portafolio/static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
+    "static/media/fa-regular-400.woff2": "/portafolio/static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
+    "index.html": "/portafolio/index.html",
+    "main.ca7f6a18.css.map": "/portafolio/static/css/main.ca7f6a18.css.map",
+    "main.34cb1974.js.map": "/portafolio/static/js/main.34cb1974.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca7f6a18.css",
+    "static/js/main.34cb1974.js"
+  ]
+}
