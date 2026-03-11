@@ -113,9 +113,9 @@ const experience = {
       experiences: [
         {
           title: "Gestión Operativa y Atención al Cliente",
-          company: "Diar Sur y Media Agua",
+          company: "Del Sur y Media Agua",
           company_url: "",
-          logo_path: "quicko.jpg",
+          logo_path: "del-sur-media-agua.jpg",
           duration: "ene 2023 - Presente",
           location: "Maipú, Mendoza (Presencial)",
           description:
